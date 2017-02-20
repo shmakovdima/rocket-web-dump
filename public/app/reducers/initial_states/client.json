@@ -1,0 +1,72 @@
+{
+  "isAuthenticated": false,
+  "errors": {
+    "register": null,
+    "auth": null,
+    "transactions": null,
+    "discounts": null,
+    "chat": null,
+    "cards": null,
+    "safe_accounts": null
+  },
+  "client": null,
+  "tokens": {
+    "session": null
+  },
+  "register": {
+    "stage": "enter_phone",
+    "sms_verification": null
+  },
+  "transactions": {
+    "list": [],
+    "current_page": 1,
+    "last_loaded_page": 0,
+    "more_available": true,
+    "per_page": 1
+  },
+  "chat": {
+    "list": [],
+    "pagination": {
+      "view": {
+        "current_page": 1,
+        "per_page": 5
+      },
+      "load": {
+        "current_page": 1,
+        "last_loaded_page": 0,
+        "more_available": true,
+        "per_page": 1
+      }
+    },
+    "auto_update": false
+  },
+  "discounts": null,
+  "actions": {
+    "card": {
+      "change_pin": {
+        "in_progress": false,
+        "ask_pin": false,
+        "verification_id": null,
+        "plastic_token": null,
+        "success": false
+      },
+      "limits": {
+        "plastic_token": null,
+        "data": {},
+        "updated": false,
+        "loaded": false
+      },
+      "extracts": {
+        "all": [],
+        "loaded": false,
+        "selected": {
+          "loaded": false,
+          "url": null
+        }
+      }
+    },
+    "safe": {
+
+    }
+  }
+}
